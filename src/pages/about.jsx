@@ -9,7 +9,7 @@ const AboutPage = () => {
     return (
         <Layout>
             <Head>
-                <title>{"About :: " + settings?.title}</title>
+                <title>{"About" + settings?.title}</title>
                 <meta name="description" content={settings?.description}/>
             </Head>
 

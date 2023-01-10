@@ -26,7 +26,7 @@ const ProductDetailsPage = ({products, product}) => {
     return (
         <Layout>
             <Head>
-                <title>{product?.title + " :: " + settings?.title}</title>
+                <title>{product?.title + settings?.title}</title>
                 <meta name="description" content={settings?.title}/>
             </Head>
 

@@ -8,7 +8,7 @@ const ContactPage = () => {
     return (
         <Layout>
             <Head>
-                <title>{"Contact Us :: " + settings?.title}</title>
+                <title>{"Contact Us" + settings?.title}</title>
                 <meta name="description" content={settings?.description}/>
             </Head>
 

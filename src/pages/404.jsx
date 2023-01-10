@@ -12,7 +12,7 @@ const Error404Page = () => {
     return (
         <div>
             <Head>
-                <title>{"Page not found (404) :: " + settings?.title}</title>
+                <title>{"Page not found (404)" + settings?.title}</title>
                 <meta name="description" content={settings?.description}/>
             </Head>
 
