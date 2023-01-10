@@ -40,10 +40,10 @@ const FurnsAPP = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
-        <title>RD :: Legends</title>
+        <title>RD Legends</title>
         <meta
           name="description"
-          content="Legends by RD"
+          content="RD Legends"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
